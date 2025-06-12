@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+
+    background-image: url(./assets/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+
+     text-align: center;
+
+    background-color: rgba(30, 30, 30, 0.500);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.card-music img{
+    display: flex;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.card-music .carousel{
+    width: 290px;
+    border-radius: 15px;
+}
+
+.card-music h2{
+    font-size: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.card-music p{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.music-player-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 20px;
+    width: 300px;
+
+    border-radius: 50px;
+    background-color: rgba(30, 30, 30, 0.500);
+    backdrop-filter: blur(20px);
+}
+
+.music-player-card div{
+    display: flex;
+}
+
+.music-player-card button{
+    background-color: rgba(250, 235, 215, 0);
+    border: 0;
+}
+
+.music-player-card button img{
+    height: 3.5vh;
+}
+
+.music-player-card .start-stop{
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+    background-color: #F2FFFB;
+    color: #0988C7;
+}
+
+.text-area h2{
+    font-size: 2.5vh;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.text-area h3{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.text-area p{
+    font-size: 2vh;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.text-area p:nth-child(5){
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.text-area p:nth-child(5){
+    font-size: 1.5vh;
+}
